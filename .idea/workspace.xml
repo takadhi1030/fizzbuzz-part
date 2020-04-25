@@ -10,19 +10,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e409aa48-d7b2-4f81-a825-a7645b52ee6a" name="Default Changelist" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+    <list default="true" id="e409aa48-d7b2-4f81-a825-a7645b52ee6a" name="Default Changelist" comment="TODOを追加">
+      <change beforePath="$PROJECT_DIR$/.idea/fizzbuzz-part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fizzbuzz-part1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b1TLggu6ACb2VBl6bfhhC4qkfC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,6 +40,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="fizzbuzz-part1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fizzbuzz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -49,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587798778839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TODOを追加">
+      <created>1587799978651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587799978651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,16 +106,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="TODOを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODOを追加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587798824833">
+    <state x="1006" y="191" key="#fizzbuzz" timestamp="1587813530790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587798824833" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1587798819564">
+    <state x="1006" y="191" key="#fizzbuzz/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587813530790" />
+    <state x="247" y="330" key="SettingsEditor" timestamp="1587813515747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587798819564" />
+    <state x="247" y="330" key="SettingsEditor/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587813515747" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587799913143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587799913143" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1587800228851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587800228851" />
   </component>
 </project>
