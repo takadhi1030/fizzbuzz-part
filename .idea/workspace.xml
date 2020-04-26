@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e409aa48-d7b2-4f81-a825-a7645b52ee6a" name="Default Changelist" comment="整数を文字列に変換して出力するようにした">
+    <list default="true" id="e409aa48-d7b2-4f81-a825-a7645b52ee6a" name="Default Changelist" comment="リファクタリング:この方がスタイリッシュで意図が伝わりやすいと思った">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/fizzbuzz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -105,7 +104,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587875174760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3の倍数ならFizzと出力するようにした&#10;ctrl + alt + L でリフォーマットコード (コードのスペースとか行を自動で調節してくれる)">
+      <created>1587875621867</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587875621867</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5の倍数ならBuzzと出力するようにした&#10;1~いちいち試していくの面倒くさい">
+      <created>1587876121750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587876121750</updated>
+    </task>
+    <task id="LOCAL-00007" summary="15の倍数ならFizzBuzzと出力するようにした&#10;条件関係に依存しない書き方大事">
+      <created>1587876546129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587876546129</updated>
+    </task>
+    <task id="LOCAL-00008" summary="リファクタリング:この方がスタイリッシュで意図が伝わりやすいと思った">
+      <created>1587878993409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587878993409</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,40 +151,56 @@
     <MESSAGE value="TODOを追加" />
     <MESSAGE value="正の数を受け取れるようにした" />
     <MESSAGE value="整数を文字列に変換して出力するようにした" />
-    <option name="LAST_COMMIT_MESSAGE" value="整数を文字列に変換して出力するようにした" />
+    <MESSAGE value="3の倍数ならFizzと出力するようにした&#10;ctrl + alt + L でリフォーマットコード (コードのスペースとか行を自動で調節してくれる)" />
+    <MESSAGE value="5の倍数ならBuzzと出力するようにした&#10;1~いちいち試していくの面倒くさい" />
+    <MESSAGE value="15の倍数ならFizzBuzzと出力するようにした&#10;条件関係に依存しない書き方大事" />
+    <MESSAGE value="リファクタリング:この方がスタイリッシュで意図が伝わりやすいと思った" />
+    <option name="LAST_COMMIT_MESSAGE" value="リファクタリング:この方がスタイリッシュで意図が伝わりやすいと思った" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="845" y="383" key="#Notifications" timestamp="1587875653221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875653221" />
     <state x="1006" y="191" key="#fizzbuzz" timestamp="1587813530790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1006" y="191" key="#fizzbuzz/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587813530790" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1587875524984">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1587879883746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1587875524984">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587879883746" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1587879883746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1587875524984">
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587879883746" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1587879883746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1587875524984">
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587879883746" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1587879883746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
-    <state x="247" y="330" key="SettingsEditor" timestamp="1587813515747">
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587879883746" />
+    <state x="247" y="330" key="SettingsEditor" timestamp="1587881860803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="247" y="330" key="SettingsEditor/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587813515747" />
+    <state x="247" y="330" key="SettingsEditor/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587881860803" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1587880997395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587880997395" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587799913143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587799913143" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1587875307671">
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587879133597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875307671" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587879133597" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1587880953153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587880953153" />
   </component>
 </project>
