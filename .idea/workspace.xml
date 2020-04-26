@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e409aa48-d7b2-4f81-a825-a7645b52ee6a" name="Default Changelist" comment="TODOを追加">
-      <change beforePath="$PROJECT_DIR$/.idea/fizzbuzz-part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fizzbuzz-part1.iml" afterDir="false" />
+    <list default="true" id="e409aa48-d7b2-4f81-a825-a7645b52ee6a" name="Default Changelist" comment="整数を文字列に変換して出力するようにした">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/fizzbuzz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587799978651</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="正の数を受け取れるようにした">
+      <created>1587856547544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587856547544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="整数を文字列に変換して出力するようにした">
+      <created>1587875174760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587875174760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,13 +122,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="TODOを追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODOを追加" />
+    <MESSAGE value="正の数を受け取れるようにした" />
+    <MESSAGE value="整数を文字列に変換して出力するようにした" />
+    <option name="LAST_COMMIT_MESSAGE" value="整数を文字列に変換して出力するようにした" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1006" y="191" key="#fizzbuzz" timestamp="1587813530790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1006" y="191" key="#fizzbuzz/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587813530790" />
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1587875524984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1587875524984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1587875524984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1587875524984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875524984" />
     <state x="247" y="330" key="SettingsEditor" timestamp="1587813515747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,9 +155,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587799913143" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1587800228851">
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1587875307671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587800228851" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1587875307671" />
   </component>
 </project>
